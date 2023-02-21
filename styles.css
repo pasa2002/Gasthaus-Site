@@ -78,6 +78,7 @@ body{
     color: white;
     background-color: transparent;
     border: 3px solid white;
+    cursor: pointer;;
 }
 
 .section-two-hero p{
