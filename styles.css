@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');/*LATO*/
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Sahitya&display=swap'); /*SAHITYA*/
+
+
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --background-header-footer: #22374A;
+    --white: white;
+
+    font-family: 'Lato', sans-serif;
+
+    --padding: 30px 15%;
+}
+
+.section-first-navbar{
+    background-color: var(--background-header-footer);
+    display: flex;
+    justify-content:space-around ;
+}
+
+.header-logo{
+    height: 70px;
+    width: 70px;
+    margin-left: 20%;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.navbar-logo-first-div{
+    display: flex;
+    gap:2%;
+}
+
+.navbar-logo-text{
+    font-family: 'Sahitya', serif;
+    font-weight: 400;
+    size: 32px;
+    color: var(--white);
+    margin-bottom: 0;
+    width: 18rem;
+}
+
+.section-second-navbar{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.section-second-navbar a{
+    color: white;
+    text-decoration: none;
+}
+
+.section-two-hero{
+    background-image: url(images/image1.png);
+    height:671px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.section-two-hero button{
+    width: 180px;
+    height: 50px;
+    font-size: 24px;
+    color: white;
+    background-color: transparent;
+    border: 3px solid white;
+}
+
+.section-two-hero p{
+    margin-top: 0;
+}
+
+.section-two-hero h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 96px;
+    margin: 0;
+}
+
+.main-content-one{
+    display: flex;
+    justify-content: space-evenly;
+}
+.opening-time{
+    margin-top: 7px;
+}
+
+.main-content-two{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 106%;
+}
+
+.main-content-line{
+    margin-left: 13%;
+}
+
+.section-footer{
+    height: 237px;
+    background-color: #22374A;
+    margin-top:6%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.section-footer-one{
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+}
+
+.footer-social-media-icon{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    gap: 120%;
+}
+.section-footer-one a{
+    color: white;
+    text-decoration: none;
+}
+
+.section-footer p{
+    color: white;
+    text-align: center;
+}
