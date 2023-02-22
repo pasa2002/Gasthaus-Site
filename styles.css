@@ -15,14 +15,14 @@ body{
 
     font-family: 'Lato', sans-serif;
 
-    --padding: 30px 8%;
+    --padding: 30px 15%;
 }
 
 .section-first-navbar{
     background-color: var(--background-header-footer);
     display: flex;
     justify-content:space-between ;
-    padding: 0 8%;
+    padding: 0 15%;
 }
 
 .header-logo{
@@ -207,8 +207,19 @@ td {
     font-weight: 700;
 }
 
-.content-about-section{
-    width: 738px;
+.content-about-section span{
     font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.content-about-section img{
+    height: 435px;
+    width: 290px;
+}
+
+.content-about-section{
+    display: flex;
+    gap: 150px;
 }
 
