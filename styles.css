@@ -223,3 +223,26 @@ td {
     gap: 150px;
 }
 
+.navigation-first-section h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.navigation-first-section{
+    padding: var(--padding);
+}
+
+.navigation-content{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation-content-one h3, p{
+    margin-bottom: 40px;
+}
+
+.navigation-content-two p{
+    margin: 0;
+    font-size: 12px;
+}
