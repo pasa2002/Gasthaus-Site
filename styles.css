@@ -21,6 +21,8 @@ body{
     background-color: var(--background-header-footer);
     display: flex;
     justify-content:space-around ;
+    top:0;
+    left:0;
 }
 
 .header-logo{
@@ -108,7 +110,8 @@ body{
 }
 
 .main-content-line{
-    margin-left: 13%;
+    border: 3px solid #22374A;
+    width: 1078px;
 }
 
 .section-footer{
