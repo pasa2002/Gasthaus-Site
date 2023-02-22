@@ -6,6 +6,7 @@ body{
     margin:0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 :root{
@@ -14,21 +15,20 @@ body{
 
     font-family: 'Lato', sans-serif;
 
-    --padding: 30px 15%;
+    --padding: 30px 8%;
 }
 
 .section-first-navbar{
     background-color: var(--background-header-footer);
     display: flex;
-    justify-content:space-around ;
-    top:0;
-    left:0;
+    justify-content:space-between ;
+    padding: 0 8%;
 }
 
 .header-logo{
     height: 70px;
     width: 70px;
-    margin-left: 20%;
+    /* margin-left: 10%; */
     margin-top: 4px;
     margin-bottom: 4px;
 }
@@ -60,6 +60,7 @@ body{
 
 .section-two-hero{
     background-image: url(images/image1.png);
+    background-blend-mode: darken;
     height:671px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -97,6 +98,7 @@ body{
 .main-content-one{
     display: flex;
     justify-content: space-evenly;
+
 }
 .opening-time{
     margin-top: 7px;
@@ -106,12 +108,11 @@ body{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 106%;
 }
 
 .main-content-line{
     border: 3px solid #22374A;
-    width: 1078px;
+    width: 60%;
 }
 
 .section-footer{
@@ -145,4 +146,55 @@ body{
 .section-footer p{
     color: white;
     text-align: center;
+}
+
+.menu-section-two{
+    padding: var(--padding);
+
+}
+
+.menu-section-two h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.menu-section-two-table{
+    width: 100%;
+}
+
+.menu-section-two h2{
+    font-weight: 700;
+}
+
+.table-first{
+    gap: 70px;
+
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+
+
+.bg1{
+    background-color: #E9E9E9;
+}
+
+.bg2{
+    background-color: white;
+}
+
+.menu-item-name{
+    padding-left: 20px;
+    width: 1200px;
+}
+
+.menu-item-price{
+    padding-right: 20px;
 }
