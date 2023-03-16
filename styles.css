@@ -96,24 +96,34 @@ body{
     margin: 0;
 }
 
+.main-content{
+    padding: var(--padding);
+}
+
 .main-content-one{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    flex-wrap: wrap;
 
 }
 .opening-time{
     margin-top: 7px;
 }
 
+.max-width-text{
+    max-width: 170px;
+}
+
 .main-content-two{
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
 }
 
 .main-content-line{
     border: 3px solid #22374A;
-    width: 60%;
+    width: 100%;
 }
 
 .section-footer{
@@ -151,7 +161,6 @@ body{
 
 .menu-section-two{
     padding: var(--padding);
-
 }
 
 .menu-section-two h1{
